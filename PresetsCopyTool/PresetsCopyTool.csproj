@@ -7,6 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<PublishReadyToRun>true</PublishReadyToRun>
+		<SelfContained>false</SelfContained>
+	</PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Spectre.Console" Version="0.57.2" />
   </ItemGroup>
